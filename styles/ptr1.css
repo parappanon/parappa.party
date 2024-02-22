@@ -1,0 +1,75 @@
+@font-face {
+    font-family: inconsolata;
+    src: url(../fonts/inconsolata.ttf)
+}
+
+@font-face {
+    font-family: inconsolata-bold;
+    src: url(../fonts/inconsolata-bold.ttf)
+}
+
+body {
+    color: black;
+    background-color: lightskyblue;
+    background-image: url("https://parapparchive.hoppingtopping.com//1-PaRappa%20The%20Rapper%20%281996%29/Parappa%20on%20Screen/Files/Images/Restored/b_12.png");
+    background-repeat: repeat;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin-top: 3em;
+}
+
+.parent {
+    margin-top: 1em;
+}
+
+.div1 {
+    background-color: lightcyan;
+    box-shadow: 3px 3px 0 8px, 0 0 0 10px white, 6px 0 0 10px white, 0 6px 0 10px white, 6px 6px 0 10px white;
+    border-radius: 12px;
+    margin-bottom: 2em;
+    font-family: inconsolata-bold;
+    font-size: 20px;
+    line-height: 1em;
+}
+
+.div1 a {
+    text-decoration: none;
+}
+
+.div1 a:hover {
+    text-shadow: 1px 0 white, -1px 0 white, 0 1px white, 0 -1px white,
+                 1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white, 2px 1px, -2px 1px, 1px 2px, 1px -2px,
+                 2px 2px, -2px -2px, 2px -2px, -2px 2px;
+}
+
+.div2 {
+    background-color: lightcyan;
+    box-shadow: 3px 3px 0 8px, 0 0 0 10px white, 6px 0 0 10px white, 0 6px 0 10px white, 6px 6px 0 10px white;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-right: 195px;
+    font-family: inconsolata;
+    font-size: 20px
+}
+
+.ost p {
+    max-width: 190px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.stack {
+    width: 175px;
+    display: block;
+    float: right;
+}
+
+.stack img {
+    right: 400px;
+}

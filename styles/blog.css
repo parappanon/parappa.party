@@ -1,0 +1,49 @@
+@font-face {
+    font-family: pixeloperator;
+    src: url('../fonts/PixelOperator.ttf');
+}
+
+@font-face {
+    font-family: big-shot;
+    src: url('../fonts/big-shot.ttf');
+}
+
+body {
+    color: white;
+    background-color: black;
+    background-image: url('../images/blog_bg.jpg');
+    background-size: cover;
+    font-family: pixeloperator, monospace;
+    font-size: 14pt;
+
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    font-family: big-shot;
+}
+
+div {
+    max-width: 1024px;
+    height: 100%;
+    background-color: #333333;
+    padding: 0px 15px;
+    margin: 20px;
+}
+
+.gradient {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, mediumseagreen, royalblue) 1;
+}
+
+a {
+    color: #00ff00;
+    text-shadow: 5px green;
+}
+
+a:visited {
+    color: #00ffff;
+    text-overflow: 5px skyblue;
+}

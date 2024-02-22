@@ -1,0 +1,36 @@
+@font-face {
+        font-family: 'Iosevka Term SS16 Web';
+        font-display: swap;
+        font-weight: 500;
+        font-stretch: expanded;
+        font-style: normal;
+        src: url('../fonts/iosevka-term-ss16-extendedmedium.ttf') format('truetype');
+}
+
+body {
+    background-color: #ffff99;
+    font-family: 'iosevka', monospace;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: -0.4em;
+}
+
+h1, h2 {
+    color: black;
+    font-family: 'iosevka', monospace;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

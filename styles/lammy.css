@@ -1,0 +1,45 @@
+body {
+    background-color: darkred;
+    background-image: url("https://parapparchive.hoppingtopping.com//2-Um%20Jammer%20Lammy%20%281999%29/CV2sogjUkAAUxTu.png");
+    font-family: 'BedsteadRegular', Courier, monospace;
+}
+
+img {
+    margin-right: 0px;
+}
+
+.logo {
+    margin-top: 1em;
+}
+
+.div1 {
+    background-color: #da2525;
+    border: groove 20px darkred;
+    border-radius: 12px;
+}
+
+.div2 {
+    position: relative;
+    background-color: #da2525;
+    border: groove 20px darkred;
+    border-radius: 12px;
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.arrows {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}

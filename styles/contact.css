@@ -1,0 +1,74 @@
+/*=========
+ ==Fonts===
+ ========*/
+@font-face {
+    font-family: pixelade;
+    src: url('../fonts/PIXELADE.TTF');
+}
+
+@font-face {
+    font-family: bigshot;
+    src: url('../fonts/big-shot.ttf');
+}
+
+/*===========
+ ==Main CSS==
+ ==========*/
+
+/* -- Background and basic CSS --*/
+body {
+    background-color: pink;
+    background-image: url(../images/BEANS.png);
+    background-repeat: repeat;
+    hyphens: auto;
+}
+
+a {
+    color: dodgerblue;
+}
+
+/* -- Windows-inspired border --*/
+.gradient {
+    border-top: 1px transparent;
+    border-radius: 7px;
+    background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+
+    color: white;
+    font-family: bigshot;
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* -- Main div for the about page (I need to get out of div hell) --*/
+.div1 {
+    background-color: aliceblue;
+    color: black;
+    border-left: 2px solid navy;
+    border-right: 2px solid dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    border-image: linear-gradient(90deg, rgb(9,9,121), rgb(0,212,255)) 1;
+    border-radius: 3px;
+
+    font-family: 'pixelade', monospace;
+    font-size: 20px;
+
+    padding-top: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: -5px;
+    line-height: 0.9em;
+}
+
+.infobox {
+    margin-top: -10px;
+    height: 125px;
+    display: flex;
+}
+
+.div1 img {
+    padding-right: 10px;
+    vertical-align: sub;
+}

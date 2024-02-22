@@ -1,0 +1,44 @@
+@font-face {
+        font-family: 'Iosevka Term SS16 Web';
+        font-display: swap;
+        font-weight: 500;
+        font-stretch: expanded;
+        font-style: normal;
+        src: url('https://parappa.party/ttf/iosevka-term-ss16-extendedmedium.ttf') format('truetype');
+}
+
+body {
+    background-color: goldenrod;
+    background-image: url("../images/charbg.png");
+    background-repeat: repeat;
+    font-family: 'iosevka', monospace;
+}
+
+h1, h2 {
+    color: black;
+    font-family: 'iosevka', monospace;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 95vh;
+}
+
+.charpage {
+    grid-area: 1 / 1 / 2 / 2;
+    height: inherit;
+    background-color: #ffff99;
+    justify-content: center;
+}
+
+.sidebar {
+    grid-area: 1 / 2 / 2 / 3;
+    height: inherit;
+    background-color: #ffff99;
+}

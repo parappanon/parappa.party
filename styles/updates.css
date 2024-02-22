@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+    background-image: url(../images/contactbg.png);
+    background-repeat: repeat;
+    hyphens: auto;
+}
+
+.div1 {
+    background-color: #8f3600;
+    color: white;
+    font-family: 'mononokiRegular', monospace;
+    padding: 20px;
+    border: 30px inset #592100;
+    border-radius: 12px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+}
+
+.div2 {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6em;
+}
+
+a {
+    color: antiquewhite;
+}
+

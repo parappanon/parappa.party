@@ -1,0 +1,158 @@
+@font-face {
+    font-family: inconsolata;
+    src: url(../fonts/inconsolata.ttf)
+}
+
+@font-face {
+    font-family: inconsolata-bold;
+    src: url(../fonts/inconsolata-bold.ttf)
+}
+
+body {
+    background-color: paleturquoise;
+    background-image: url('../images/animebg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    hyphens: auto;
+
+    margin: auto;
+}
+
+/* div {
+    border: 3px solid red;
+} */
+
+section {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: inline;
+}
+
+.thumb-left img {
+    float:left;
+}
+
+.thumb-right img {
+    float: right;
+}
+
+.title {
+    max-width: 800px;
+    max-height: 230px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 0px;
+    
+    background-image: url('../images/goldmusicbg.gif');
+
+    border: 3px solid brown;
+    border-radius: 30px;
+}
+
+.layout {
+    max-width: 1024px;
+    display: flex;
+    color: white;
+}
+
+.sidebar {
+    width: 25%;
+    max-width: 200px;
+    max-height: 640px;
+    background-color: #1E1E2F;
+    border: 4px solid #00ffdf;
+    border-radius: 15px;
+    box-shadow: 0 0 18px #00ffdf;
+    padding: 15px 10px;
+    font-family: inconsolata-bold, monospace;
+    font-size: 1.5em;
+}
+
+.body {
+    width: 75%;
+    min-height: 640px;
+    border: 4px solid magenta;
+    background-color: #260E2E;
+    border-radius: 13px;
+    box-shadow: 0 0 18px magenta;
+    padding: 0px 10px;
+    font-family: inconsolata, monospace;
+    font-size: 1.2em;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+}
+
+.pawrapper {
+    position: relative;
+    height: 370px;
+}
+
+.pawrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.body img {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.body p {
+    margin-left: 8px;
+}
+
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 799px) {
+    .title {
+        max-width: 90% !important;
+    }
+
+    .layout {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 88%;
+    }
+    
+    .sidebar br {
+        display: none !important;
+    }
+
+    .body {
+        max-width: 90%;
+    }
+
+    .pawrapper {
+        display: none;
+    }
+}

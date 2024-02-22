@@ -1,0 +1,41 @@
+body {
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    hyphens: auto;
+}
+
+.parent {
+    margin: auto;
+    width: fit-content;
+} 
+
+.div1 {
+    float: left;
+    padding: 15px;
+    max-width: 130px;
+    margin-right: 0.25em;
+}
+
+.div2 {
+    float: right;
+    padding: 15px;
+    max-width: 400px;
+    margin-left: 0.25em;
+    margin-bottom: 35vh;
+    margin-right: 210px;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

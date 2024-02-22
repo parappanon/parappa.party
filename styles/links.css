@@ -1,0 +1,40 @@
+@font-face {
+    font-family: pixeloperator;
+    src: url(../fonts/PixelOperator.ttf)
+}
+
+body {
+    background-color:  #3f2e94;
+    background-image: url("../images/bios.jpg");
+    background-size: cover;
+    color: white;
+    text-align: left !important;
+    font-family: pixeloperator;
+    font-size: 14pt;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.box {
+    flex-direction: column;
+    background-color: #676a9b;
+    opacity: 0.8;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    border: 1px solid white;
+    max-width: 50em;
+}
+
+h2 {
+    line-height: 0.5;
+}
+
+a {
+    color: lightblue;
+}
